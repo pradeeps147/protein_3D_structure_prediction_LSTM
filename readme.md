@@ -20,20 +20,8 @@
 * To create input data, you need the fasta file and get the spot1d and pssm
 
 ## local spot1d 
-* 10.219.35.42 sysguru
 * activate Virtual Environments : conda activate spot1d
-* location : /home/sysguru/SPOTPRJ/SPOT-1D-local/
-* put in the fasta file @location/input/ directory
-* @location ./run_spot1d.sh
-* generate the spot1d file -> @location/output
 * take input.spot1d file
 
 ## local pssm
-* 10.219.35.18 sysguru
-* su root
-* input file location : /raid0/pt_data/unknowntest/ufasta/
-* output file location : /raid0/pt_data/unknowntest/upssm/
-* sh command location : /raid0/pt_data/
-* put in the fasta file /raid0/pt_data/unknowntest/ufasta/ directory
-* run sh command at /raid0/pt_data/, ./psiblst_att_ppsasa.sh
 * take input.fasta_PSSM_2.txt file
